@@ -1,83 +1,97 @@
-body {
-    background-color: #fcfbfb
-    }
-
-h1{
-    margin-left: 20px;
-    }
-
-p.colored{
-    color: royalblue;
-    text-align: center;
-    }   
-header {
-    width: 20%;
-    height: 100px;
-    background-color: powderblue;
-
-    }
-div{ 
-    max-width: 1600px;
-    text-align: center;
-    }
-#content {
-    margin: 0 auto;
-    max-width: 1600px;
-    text-align: center;
-    
-    }
-
-nav a
-    #hero-msg h1, #hero-msg h4
-    .button-box
-    main section
 #background {
     height: 725px;
-    }
-header{ background-color: rgba(20,30,13, .7);
-    }
-    
-nav a :hover{
-        background-color: black;
-        color: #d9c2a3
-    }
-
-.icon{
-    width: 80px;
-    text-align: right;
-    }
-
+}
 body {
     background-color: #fcfbfb; 
-    }
+}
 header {
     background-color:rgba(20,30,13, .7);
-    }
+}
+nav a:hover {
+    background-color: black;
+}               
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}    
 
-nav a {
-        text-align: center;
-        color: #fcfbfb;
-        text-decoration: none;
-    }    
-
-footer p {
-    font-size: 1.2em
-    }
+.icon {
+    width: 50px;
+    
+}
  
-footer p a:hover {
-    text-decoration: underline;
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+footer p {
+    font-size: 1.2em;
+}    
+  
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
 
-    }
-p   {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-    }
+    width: 100px;
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.card-img .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p a.hover {
+    text-decoration: underline;
+}  
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+main{
+
+    text-align: center;
+}
+main p {
+    background-color: rgba(133, 132, 131, 0.89) ;
+        color: #faf0f0;
+}  
+
+footer {
+    background-color: rgba(133, 132, 131, 0.89) ;
+        color: #faf0f0;
+    
         
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    }
+    }    
+.join{
+        background-color: rgba(133, 132, 131, 0.89) ;
+        color: #faf0f0;
+        
+     }    
