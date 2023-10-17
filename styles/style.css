@@ -1,8 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{   
+    --headline: 'Open Sans', sans-serif;
+    --body:  'Open Sans', sans-serif
+}
+.home-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+  padding: 35px;
+  padding-bottom: 15px;
+}
 #background {
     height: 725px;
+    padding-top: 5px;
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -13,10 +40,17 @@ nav a:hover {
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }    
 
 .icon {
     width: 50px;
+    padding-top: 10px;
     
 }
  
@@ -24,10 +58,12 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }    
 footer p {
     font-size: 1.2em;
-}    
+    padding: 25px 50px;
+}   
   
 div{
     display: flex;
@@ -40,6 +76,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 .logo{
 
@@ -56,9 +93,13 @@ h4{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 200px 0;
+    border: 10px solid #d9c2a3
 }
 footer p a.hover {
     text-decoration: underline;
+    margin-top: 200px;
+    padding-top: 15px;
 }  
 p{
     display: flex;
